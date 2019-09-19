@@ -1,0 +1,145 @@
+@font-face
+{
+	font-family: "Yesev";
+	src:url('../Font/YesevaOne-Regular.ttf');
+}
+@font-face
+{
+	font-family: "great";
+	src:url('../Font/GreatVibes-Regular.otf');
+}
+body
+{
+	background-image: url("../img/body.png");
+	/*background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+/*global*/
+.topic
+{
+	font-family: Yesev;
+}
+/*hero section*/
+
+.heading
+{
+	/*font-family:Yesev ;*/
+	font-size: 155pt;
+
+}
+.sername
+{
+	position: relative;
+	font-size: 70px;
+	top : -40px;
+}
+.role
+{
+	font-size: 22px;
+    position: absolute;
+    left: -20px;
+    top: 394px;
+}
+.icon
+{
+	height: 65px !important;
+}
+.menu_icon
+{
+	height: 20px;
+}
+.navbar-brand
+{
+	font-size: 20px;
+}
+
+/*line before checkout*/
+
+.parent
+{
+	position: relative;
+}
+.line
+{
+	position: absolute;
+	left: 52px;
+}
+
+
+/*progress bar animation*/
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+  }
+  .progress-bar .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+ 
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} 
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.progress1
+{
+	background-color: #ffc107;
+}
+.progress2
+{
+	background-color: yellow;
+}
+.progress3
+{
+	background-color: #28a745;
+}
+.progress4
+{
+	background-color: #007bff;
+}
+.progress5
+{
+	background-color: #00008b;
+}
+.progress6
+{
+
+    background-color: #e40a80; 
+}
+.progress7
+{
+	background-color: #bd2130;
+}
+.progress8
+{
+	background-color: darkorange;
+}
+.progress9
+{
+	background-color: #ff4f00;
+}
+.progress10
+{
+	background-color: purple;
+}
