@@ -101,8 +101,20 @@ body
     opacity: 1;
   }
 }
-
-.progress1
+.progress1,
+.progress2,
+.progress3,
+.progress4,
+.progress5,
+.progress6,
+.progress7,
+.progress8,
+.progress9,
+.progress10
+{
+	background-color: #44388a;
+}
+/* .progress1
 {
 	background-color: #ffc107;
 }
@@ -142,4 +154,4 @@ body
 .progress10
 {
 	background-color: purple;
-}
+} */
