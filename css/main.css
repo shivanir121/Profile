@@ -114,44 +114,13 @@ body
 {
 	background-color: #44388a;
 }
-/* .progress1
-{
-	background-color: #ffc107;
-}
-.progress2
-{
-	background-color: yellow;
-}
-.progress3
-{
-	background-color: #28a745;
-}
-.progress4
-{
-	background-color: #007bff;
-}
-.progress5
-{
-	background-color: #00008b;
-}
-.progress6
-{
+/* contact page style  */
 
-    background-color: #e40a80; 
-}
-.progress7
+.contactDetail
 {
-	background-color: #bd2130;
+	    margin-top: 60px;
 }
-.progress8
+.contactPage
 {
-	background-color: darkorange;
+	background-image: none;
 }
-.progress9
-{
-	background-color: #ff4f00;
-}
-.progress10
-{
-	background-color: purple;
-} */
