@@ -124,3 +124,8 @@ body
 {
 	background-image: none;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+}
