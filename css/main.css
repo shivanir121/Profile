@@ -170,10 +170,11 @@ div.scrollmenu .portfoliocontainer:hover {
 
 .work {
     border-radius: 8px;
-	    width: 50%;
-    height: 91%;
+	    
 }
-
+.portfoliocontainer{
+width: 50%;
+    height: 91%;}
 .mywork, .mywork:hover, .mywork:active, .mywork:focus {
     outline: none!important;
     box-shadow: none!important;
