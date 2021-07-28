@@ -108,37 +108,63 @@
       <div class="container">
         <span class="font-weight-bold parent">CHECKOUT</span>
         <h3 class="topic">what i do</h3>
-        <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-9">
-            <div class="row">
-            <div class="col-lg-6">
-                <img src="img/icon/frontend.png" class="img-fluid icon mb-2" alt="frontend" >
-                <h5 class="text-uppercase">Front-end coding</h5>
-                <p class="text-justify"> Converting data into a graphical interface, through the use of Web development languages like : HTML5, CSS3, JavaScript, bootstrap4 ... so that users can view and interact with that data easily.
-				I solve the complex problems thus making them delightful for the users so that they interact with the data in a much easier way without having to bang their heads in trying to understand it;)</p>
-              </div>
-              
-              <div class="col-lg-6">
-                <img src="img/icon/project.png" class="img-fluid icon mb-2" alt="More page website">
-                <h5 class="text-uppercase">WordPress website</h5>
-                <p class="text-justify">Here a developer need not have to code from scratch to create a required clients website. Instead a developer make use of already existing template and plugins to meet the requirement.</p>
-              </div>
-              </div><br><br>
-              <div class="row">
-              <div class="col-lg-6">
-                <img src="img/icon/static.png" class="img-fluid icon mb-2" alt="Static website">
-                <h5 class="text-uppercase">Static Website</h5>
-                <p class="text-justify">A static website contains Web pages with fixed content. Static sites are the most basic type of website and are widely used to portray clients services. Websites which shows the fixed content like information about a company, product description, goal etc... all come under static website.</p>
-              </div>
-              <div class="col-lg-6">
-                <img src="img/icon/virtual.png" class="img-fluid icon mb-2" alt="Virtual website">
-                <h5 class="text-uppercase">Virtual Website</h5>
-                <p class="text-justify">A website where interaction of user is required to process the need comes under virtual website. For an instance when you have to purchase any product from flipkart(e-commerce website) you have to select that product first after that you need to choose location for the delievery, Name, payment mode etc... must be submited to get that product. In all this process the interaction of user is happening where all the data given by user gets saved in Database for process to happen.</p>
-              </div>
-            </div>
-          </div>
+        <div class="scrollmenu" id="portfolioscroll">
+        <div class="portfoliocontainer">
+            <img src="https://github.com/mdo.png" alt="project 1" class="work mb-4">
+            <br>
+            <a href="#" class="btn btn-primary mywork">
+                Preview
+            </a>
         </div>
+        <div class="portfoliocontainer">
+            <img src="https://github.com/mdo.png" alt="project 1">
+            <br>
+            <a href="#" class="btn btn-primary">
+                Preview
+            </a>
+        </div>
+        <div class="portfoliocontainer">
+            <img src="https://github.com/mdo.png" alt="project 1">
+            <br>
+            <a href="#" class="btn btn-primary">
+                Preview
+            </a>
+        </div>
+        <div class="portfoliocontainer">
+            <img src="https://github.com/mdo.png" alt="project 1">
+            <br>
+            <a href="#" class="btn btn-primary">
+                Preview
+            </a>
+        </div>
+        <div class="portfoliocontainer">
+            <img src="https://github.com/mdo.png" alt="project 1">
+            <br>
+            <a href="#" class="btn btn-primary">
+                Preview
+            </a>
+        </div>
+    </div>
+    <script>
+        (function() {
+            function scrollHorizontally(e) {
+                e = window.event || e;
+                var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                document.getElementById('portfolioscroll').scrollLeft -= (delta * 40); // Multiplied by 40
+                e.preventDefault();
+            }
+            if (document.getElementById('portfolioscroll').addEventListener) {
+                // IE9, Chrome, Safari, Opera
+                document.getElementById('portfolioscroll').addEventListener('mousewheel', scrollHorizontally, false);
+                // Firefox
+                document.getElementById('portfolioscroll').addEventListener('DOMMouseScroll', scrollHorizontally,
+                    false);
+            } else {
+                // IE 6/7/8
+                document.getElementById('portfolioscroll').attachEvent('onmousewheel', scrollHorizontally);
+            }
+        })();
+    </script>
       </div>
     </section>
 
