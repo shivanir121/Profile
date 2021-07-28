@@ -182,4 +182,7 @@ div.scrollmenu .portfoliocontainer:hover {
     outline: none!important;
     box-shadow: none!important;
 }
+.scrollmenu{
+    margin-left: 196px;
+}
 /* end of portfolio scroll */
