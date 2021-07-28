@@ -129,3 +129,51 @@ body
     background-image: none;
   }
 }
+/* portfolio scroll */
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu .portfoliocontainer {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu .portfoliocontainer:hover {
+    /* background-color: #777; */
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: none;
+}
+
+.work {
+    border-radius: 8px;
+}
+
+.mywork, .mywork:hover, .mywork:active, .mywork:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+/* end of portfolio scroll */
