@@ -123,17 +123,7 @@ body
 {
 	background-image: none;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: none;
-  }
-.scrollmenu {
-    	margin-left: 0px;
-	}
-	.portfoliocontainer {
-	    width: 78%;
-	}
-}
+
 /* portfolio scroll */
 div.scrollmenu {
     overflow: auto;
@@ -191,3 +181,14 @@ div.scrollmenu .portfoliocontainer:hover {
     margin-left: 196px;
 }
 /* end of portfolio scroll */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+.scrollmenu {
+    	margin-left: 0px;
+	}
+	.portfoliocontainer {
+	    width: 78%;
+	}
+}
