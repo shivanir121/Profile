@@ -121,7 +121,8 @@ body
 }
 .contactPage
 {
-	background-image: none;
+	background-image:#e7dcf5;
+	height: 100vh;
 }
 
 /* portfolio scroll */
